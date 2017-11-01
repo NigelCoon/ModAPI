@@ -1,0 +1,29 @@
+==========================================
+> CHANGELOG _
+
+* ModAPI 1.0.1.0 (build & gen 20170817)
+ - Removed Login button being obsolete (also due to not providing benefit from logging in)
+ - Removed unnecessary code
+ - Removed obsolete code
+ - Updated abandonned code
+ - Update Verions info for main application
+ - 9357 lines added, 8534 lines removed in current commit
+
+* The Forest v0.63b
+ - Versiontable updated
+ - Adjustments for transition from modapi.de to modapi.cc applied
+ - FR & KR languages and flag icons included, thanks to zzangae (KR) and VooDoo (FR)!
+ - Defunct mods replaced with working versions
+
+* The Forest v.46
+ - Versionstable updated
+ - PL language and flag icon included, thanks to Dilok!
+ - New ES flag icon included, thanks to Dilok!
+
+
+* The Forest v0.45
+ - Versionstable updated
+ - Obsolete files used by main game removed from mandatory
+
+
+//

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RuntimeConfiguration>
+  <Mod ID="BiggerBackpack" UniqueID="BiggerBackpack-1.0.1-9e94a1bccb64a8e417639b004b75f63e" Version="1.0.1" />
+  <ExecuteOnGameStart ModID="BiggerBackpack">System.Void BiggerBackpack.Totallynotcheating::Load()</ExecuteOnGameStart>
+  <Mod ID="InfiniteZipline" UniqueID="InfiniteZipline-1.0-b713d4fcbd55f07d36e1ddc01ae47c46" Version="1.0" />
+  <Mod ID="Jumper" UniqueID="Jumper-1.0.0.0-a3b08a0e5360f70c383c94585aba8cb1" Version="1.0.0.0">
+    <Button ID="teleport">P</Button>
+  </Mod>
+  <ExecuteOnGameStart ModID="Jumper">System.Void tp::Init()</ExecuteOnGameStart>
+  <Mod ID="Map" UniqueID="Map-0.3.13-85aeb52b68f391fa1ce273449f65d8ae" Version="0.3.13" HasResources="true">
+    <Button ID="OpenMap">M</Button>
+  </Mod>
+  <ExecuteOnGameStart ModID="Map">System.Void Map.IngameMap::Init()</ExecuteOnGameStart>
+  <Mod ID="UltimateCheatmenu" UniqueID="UltimateCheatmenu-1.19.2-a278e7a07034e7397a2eb0e7d78944ec" Version="1.19.2">
+    <Button ID="OpenMenu">F1</Button>
+    <Button ID="MassTree">X</Button>
+    <Button ID="FreezeTime">F4</Button>
+    <Button ID="InstaBuild">F</Button>
+    <Button ID="FreeCam">F3</Button>
+    <Button ID="InstaRepair">LeftShift+R</Button>
+    <Button ID="Fly">F6</Button>
+    <Button ID="Noclip">F7</Button>
+    <Button ID="Respawn">T</Button>
+    <Button ID="RespawnInfinite">LeftShift+T</Button>
+  </Mod>
+  <ExecuteOnGameStart ModID="UltimateCheatmenu">System.Void UltimateCheatmenu.UCheatmenu::AddMeToScene()</ExecuteOnGameStart>
+  <ExecuteOnGameStart ModID="UltimateCheatmenu">System.Void UltimateCheatmenu.UCheatmenu::FindAnimals()</ExecuteOnGameStart>
+  <ExecuteOnGameStart ModID="UltimateCheatmenu">System.Void UltimateCheatmenu.UCheatmenu::FindProps()</ExecuteOnGameStart>
+  <ExecuteOnGameStart ModID="UltimateCheatmenu">System.Void UltimateCheatmenu.UCheatmenu::FindBolts()</ExecuteOnGameStart>
+</RuntimeConfiguration>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UserConfiguration>
+  <usesteam>true</usesteam>
+  <autoupdate>true</autoupdate>
+  <updateversions>true</updateversions>
+  <setupdone>true</setupdone>
+  <mods>
+    <theforest>
+      <map>
+        <buttons>
+          <openmap>M</openmap>
+        </buttons>
+        <version>31300</version>
+        <selected>true</selected>
+      </map>
+      <ultimatecheatmenu>
+        <buttons>
+          <openmenu>F1</openmenu>
+          <masstree>X</masstree>
+          <freezetime>F4</freezetime>
+          <instabuild>F</instabuild>
+          <freecam>F3</freecam>
+          <instarepair>LeftShift+R</instarepair>
+          <fly>F6</fly>
+          <noclip>F7</noclip>
+          <respawn>T</respawn>
+          <respawninfinite>LeftShift+T</respawninfinite>
+        </buttons>
+        <version>1190200</version>
+        <selected>true</selected>
+      </ultimatecheatmenu>
+      <infinitezipline>
+        <version>1000000</version>
+        <selected>true</selected>
+      </infinitezipline>
+      <jumper>
+        <buttons>
+          <teleport>P</teleport>
+        </buttons>
+        <selected>true</selected>
+      </jumper>
+      <biggerbackpack>
+        <selected>true</selected>
+      </biggerbackpack>
+    </theforest>
+  </mods>
+  <Paths>
+    <steam>g:/steam</steam>
+    <games>
+      <theforest>g:/steam\SteamApps\common\The Forest</theforest>
+    </games>
+  </Paths>
+</UserConfiguration>
